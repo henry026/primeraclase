@@ -1,0 +1,44 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		
+		Console.WriteLine("Seleccione una conversion");
+     Console.WriteLine("1. ºC  a  ºF");
+      Console.WriteLine("2. ºF  a  ºC");
+		Console.WriteLine("3. ºC a K ");
+      int n=Convert.ToInt32(Console.ReadLine()); 
+      if(n==1)
+	  
+	  {
+          Console.WriteLine("Ingresa grados centigrados");
+          double c = Convert.ToDouble(Console.ReadLine());
+          double f=(c*9/5)+(32);
+          Console.WriteLine(c+"ºC equivale a "+f+"ºF");
+     }
+		 if (n==1)
+	  
+	  {
+          Console.WriteLine("Ingresa grados fahrenheit");
+          double f = Convert.ToDouble(Console.ReadLine());
+          double c=(f-32)*5/9;
+          Console.WriteLine(f + "ºF equivale  a " + c + "ºC");
+	  }
+		else
+		{
+          Console.WriteLine("Ingresa grados fahrenheit");
+          double c = Convert.ToDouble(Console.ReadLine());
+          double k=(c*273);
+          Console.WriteLine(k + "ºC equivale  a " + k + "k");
+		  
+		  
+		 
+		  
+      }
+           Console.ReadLine();
+		
+	}
+}
+
