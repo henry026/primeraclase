@@ -1,0 +1,20 @@
+
+using System;
+		
+
+public class Program
+	
+{
+	
+	public static void Main()
+		
+	{
+		int num1,num2,div;
+		Console.WriteLine("ingrese primer numero");
+		num1=int.Parse(Console.ReadLine());
+		Console.Write("ingrese segundo numero");
+		num2=int.Parse(Console.ReadLine());
+		div=num1/num2;
+		Console.WriteLine("El resultado de la division es:{0}",div);
+	}
+}
