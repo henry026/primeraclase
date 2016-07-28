@@ -1,0 +1,26 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int edad;
+		
+		Console.WriteLine("ingrese edad");
+		edad=int.Parse(Console.ReadLine());
+		if (edad<21)
+			
+		Console.WriteLine("Te ves mayor de 20");
+		
+		else if (edad>=21 && edad<=24)
+		Console.WriteLine("pareces de 25");
+		
+			
+		else if (edad>=25);
+		Console.WriteLine("te ves mayor de 25");
+		
+			
+	
+		
+	}
+}
