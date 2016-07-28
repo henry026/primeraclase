@@ -1,0 +1,27 @@
+using System;
+		
+
+public class Program
+	
+{
+	
+	public static void Main()
+		
+	{
+		int num1,num2,num3,num4,prome;
+	
+		
+		Console.WriteLine("ingrese numero");
+		num1=int.Parse(Console.ReadLine());
+		Console.WriteLine("ingrese numero");
+		num2=int.Parse(Console.ReadLine());
+		Console.WriteLine("ingrese numero");
+		num3=int.Parse(Console.ReadLine());   
+		Console.WriteLine("ingrese numero");
+		num4=int.Parse(Console.ReadLine());
+		prome=(num1+num2+num3+num4)/4;
+		Console.WriteLine("el promedio es: {0}",prome);
+		
+	}
+
+}
