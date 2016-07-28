@@ -1,0 +1,29 @@
+
+using System;
+		
+
+public class Program
+	
+{
+	
+	public static void Main()
+		
+	{
+		int num,resul;
+	
+		
+		Console.WriteLine("ingrese numero");
+		num=int.Parse(Console.ReadLine());
+		
+		    for (int i = 1; i <= 10; i++ )
+                        {
+                            resul = num * i;
+                           Console.WriteLine(num+ " * " +i+ " = " +resul);
+                        
+
+		
+		}
+		
+	}
+
+}
